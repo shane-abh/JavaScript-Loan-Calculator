@@ -1,0 +1,247 @@
+/* Name: Shane Abraham
+ID: 8895137 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  /* background-color: #009EB5; */
+  font-family: "Montserrat";
+}
+
+header {
+  display: flex; /* Use flexbox to align items in the same line */
+  justify-content: space-between; /* Spread the content in header */
+  align-items: center; /* Center items vertically in header */
+  background-color: #007bff;
+  color: #fff;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+
+  font-size: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  width: 50%;
+  margin: auto;
+}
+.container h1 {
+  text-align: center;
+}
+
+.container form {
+  background-color: #e2f1ff;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container form label {
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  flex: 1;
+}
+
+input {
+  flex: 2;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* span{
+  font-size: small;
+  margin-left: 20px;
+
+} */
+
+#interest-rate-errMsg,
+#down-payment-errMsg {
+  color: red;
+  font-size: 12px;
+}
+
+.container form div {
+  display: flex;
+  align-items: center;
+}
+
+.container label {
+  margin-right: 10px;
+}
+
+.container input,
+.container select {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.container button {
+  /* grid-column: span 2; */
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+#clearContents {
+  background-color: #868ebb;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #e2f1ff;
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#loan-types select {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#loan-comparison-rent input {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#apply-colors {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+th {
+  padding: 5px;
+  background-color: #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#last-row {
+  background-color: rgb(190, 204, 218);
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 520;
+}
+
+td:nth-of-type(1) {
+  font-weight: 600;
+  background-color: rgb(208, 225, 241);
+}
+
+#pie {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-size: 120%;
+  padding: 0.25em 0 0.25em 25px;
+  cursor: pointer;
+  background: url(../images/plus.png) no-repeat left center;
+}
+
+h3.minus {
+  background: url(../images/minus.png) no-repeat left center;
+}
+
+#chart,
+#amortization-schedule {
+  background-color: #f2f9ff;
+  /* border: 1px solid blue; */
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  background-color: aliceblue;
+  color: #000;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

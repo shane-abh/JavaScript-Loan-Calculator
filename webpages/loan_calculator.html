@@ -1,0 +1,109 @@
+<!--Name: Shane Abraham
+    ID: 8895137 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maple Leaf Loans</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./loan_calculator.html">Loan Calculator</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Loan Calculator</h1>
+      <form id="loan-form">
+        <div>
+          <label for="loan-amount">Loan Amount ($):</label>
+          <input type="number" id="loan-amount" required />
+        </div>
+        <span class="hidden" id="interest-rate-errMsg"></span>
+        <div>
+          <label for="interest-rate">Interest Rate (%):</label>
+          <input type="number" id="interest-rate" step="0.01" required />
+        </div>
+        <div>
+          <label for="loan-duration">Loan Duration (years):</label>
+          <input type="number" id="loan-duration" required />
+        </div>
+        <span class="hidden" id="down-payment-errMsg"></span>
+        <div>
+          <label for="down-payment-percentage"
+            >Down Payment Percentage (%):</label
+          >
+          <input
+            type="number"
+            id="down-payment-percentage"
+            step="0.01"
+            required
+          />
+        </div>
+        <div>
+          <label for="loan-date">Loan Date:</label>
+          <input type="date" id="loan-date" required />
+        </div>
+
+        <div id="buttons">
+          <button id="clearContents">Clear</button>
+          <button type="submit">Calculate</button>
+        </div>
+      </form>
+
+      <!-- Results -->
+      <div id="result" class="hidden">
+        <h2>Results</h2>
+        <p>Monthly Payment: <span id="monthly-payment"></span></p>
+        <p>Total Payment: <span id="total-payment"></span></p>
+        <p>Down Payment: <span id="down-payment-amount"></span></p>
+        <p>
+          Total Payment after down payment:
+          <span id="total-payment-after-down-payment"></span>
+        </p>
+        <p>
+          Total interest after down payment:
+          <span id="total-interest-after-down-payment"></span>
+        </p>
+
+
+
+        <div id="chart">
+          <h3>Amortization Schedule Graph</h3>
+          <canvas id="graph" width="400" height="200"></canvas>
+        </div>
+
+        <div id="chart">
+          <h3>Loan Payment Bar Chart</h3>
+          <canvas id="bar-chart" width="400" height="200"></canvas>
+        </div>
+
+        <div id="chart">
+          <h3>Payment Breakdown Pie Chart</h3>
+          <div id="pie">
+            <canvas id="pie-chart" width="100" height="100"></canvas>
+          </div>
+        </div>
+
+        <div id="amortization-schedule" class="hidden">
+          <h3>Amortization Schedule</h3>
+
+          <table id="amortization-table"></table>
+        </div>
+      </div>
+      
+    </div>
+    <footer>
+      <small>&copy; Shane Abraham 2023</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

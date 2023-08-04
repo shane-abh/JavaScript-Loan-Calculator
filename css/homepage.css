@@ -1,0 +1,111 @@
+/* Name: Shane Abraham
+ID: 8895137 */
+
+#types-loan {
+  background-color: #bbd5f8;
+  background-image: linear-gradient(60deg, #bbd5f8, #f7f9ff);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+#types-loan h2 {
+  font-size: 40px;
+  padding: 20px;
+}
+#loan-types {
+  margin: 0 auto;
+  width: 520px;
+  height: 480px;
+  padding: 20px;
+  /* border: 3px solid #dda01d; */
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+/*  */
+#image {
+  height: 350px;
+  margin-bottom: 1em;
+  margin-left: 80px;
+}
+/* the styles for the carousel */
+.button_panel {
+  height: 125px;
+  padding: 50px 15px;
+  float: left;
+}
+.button_panel img {
+  width: 30px;
+  height: 30px;
+}
+#display_panel {
+  width: 400px;
+  overflow: hidden;
+  float: left;
+  height: 125px;
+}
+#image_list {
+  position: relative;
+  left: 0px;
+  margin-left: -40px;
+
+  width: 900px;
+  list-style: none;
+}
+#image_list li {
+  float: left;
+  width: 100px;
+}
+#image_list li img {
+  width: 95px;
+}
+.hero {
+  background-color: #f7f9ff;
+  background-image: linear-gradient(60deg, rgb(200, 0, 100, 0.2), #f7f9ff);
+  padding: 10px;
+}
+#hero-para {
+  float: left;
+
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 0 20px 0 20px;
+}
+
+#hero-img {
+  float: right;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+  /* width: 350px; */
+  border-radius: 10px;
+}
+p {
+  /* max-width: 800px; */
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#action-btn {
+  padding: 20px;
+  width: 500px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  border-radius: 10px;
+  margin: 20px 0 20px 10px;
+  background-color: #007bff;
+  color: white;
+}
+
+#action-btn a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,119 @@
+/* Name: Shane Abraham
+ID: 8895137 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  /* background-color: #009EB5; */
+  font-family: 'Montserrat';
+}
+
+header {
+  display: flex; /* Use flexbox to align items in the same line */
+  justify-content: space-between; /* Spread the content in header */
+  align-items: center; /* Center items vertically in header */
+  background-color: #007bff;
+  color: #fff;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+  
+  font-size: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+  .container {
+    max-width: 800px;
+    margin: 50px auto 0px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: aliceblue;
+    color: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
